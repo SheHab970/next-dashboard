@@ -1,5 +1,33 @@
-import { Calendar, ChevronDown, ChevronUp, Home, Inbox, LogOut, Plus, Projector, Search, Settings, User, User2 } from "lucide-react";
-import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem, SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem, SidebarSeparator } from "./ui/sidebar";
+import { 
+    Calendar, 
+    ChevronDown, 
+    ChevronUp, 
+    Home, 
+    Inbox, 
+    LogOut, 
+    Plus, 
+    Projector, 
+    Search, 
+    Settings, 
+    User, 
+    User2 } from "lucide-react";
+import { 
+    Sidebar,
+    SidebarContent, 
+    SidebarFooter, 
+    SidebarGroup, 
+    SidebarGroupAction, 
+    SidebarGroupContent, 
+    SidebarGroupLabel, 
+    SidebarHeader, 
+    SidebarMenu, 
+    SidebarMenuBadge, 
+    SidebarMenuButton, 
+    SidebarMenuItem, 
+    SidebarMenuSub, 
+    SidebarMenuSubButton, 
+    SidebarMenuSubItem, 
+    SidebarSeparator } from "./ui/sidebar";
 import Link from "next/link";
 import Image from "next/image";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from "./ui/dropdown-menu";
