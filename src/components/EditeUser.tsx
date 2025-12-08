@@ -1,0 +1,21 @@
+"use client"
+
+import { SheetContent, SheetDescription, SheetHeader, SheetTitle } from "./ui/sheet";
+
+const EditeUser = () => {
+    return(
+        <>
+            <SheetContent>
+                <SheetHeader>
+                <SheetTitle>Are you absolutely sure?</SheetTitle>
+                <SheetDescription>
+                    This action cannot be undone. This will permanently delete your account
+                    and remove your data from our servers.
+                </SheetDescription>
+                </SheetHeader>
+            </SheetContent>
+        </>
+    );
+}
+
+export default EditeUser;
