@@ -27,25 +27,25 @@ const AppBarChart = () => {
         <>
             <h1 className=" text-lg font-medium mb-6">Total revenue</h1>
             <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
-            <BarChart accessibilityLayer data={chartData}>
-                <CartesianGrid vertical={false} />
-                <XAxis
-                dataKey="month"
-                tickLine={false}
-                tickMargin={10}
-                axisLine={false}
-                tickFormatter={(value) => value.slice(0, 3)}
-                />
-                <YAxis
-                tickLine={false}
-                tickMargin={10}
-                axisLine={false}
-                />
-                <ChartTooltip content={<ChartTooltipContent />} />
-                <ChartLegend content={<ChartLegendContent />} />
-                <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
-                <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
-            </BarChart>
+              <BarChart accessibilityLayer data={chartData}>
+                  <CartesianGrid vertical={false} />
+                  <XAxis
+                  dataKey="month"
+                  tickLine={false}
+                  tickMargin={10}
+                  axisLine={false}
+                  tickFormatter={(value) => value.slice(0, 3)}
+                  />
+                  <YAxis
+                  tickLine={false}
+                  tickMargin={10}
+                  axisLine={false}
+                  />
+                  <ChartTooltip content={<ChartTooltipContent />} />
+                  <ChartLegend content={<ChartLegendContent />} />
+                  <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
+                  <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+              </BarChart>
             </ChartContainer>
         </>
     )
