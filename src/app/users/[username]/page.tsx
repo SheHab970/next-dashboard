@@ -1,5 +1,6 @@
 import CardList from "@/components/CardList";
 import EditeUser from "@/components/EditeUser";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
@@ -121,7 +122,14 @@ const SingleUserPage = () => {
                 <div className="w-full xl:w-2/3 space-y-6">
                     {/* USER CARD CONTAINER */}
                     <div className="bg-primary-foreground p-4 rounded-lg">
-                        USER CARD
+                        <div className="flex items-center gap-4">
+                            <Avatar className="size-12">
+                                <AvatarImage src="https://github.com/shadcn.png" />
+                                <AvatarFallback>SK</AvatarFallback>
+                            </Avatar>
+                            <h1 className="text-xl">Shehab Khaled</h1>
+                        </div>
+                        <p className="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, ex. Magnam nam quae odio? Itaque a rem natus quidem non repellat, eaque nam! Inventore, assumenda quo animi officiis fuga soluta?</p>
                     </div>
                     {/* CHART CONTAINER */}
                     <div className="bg-primary-foreground p-4 rounded-lg">
