@@ -34,7 +34,7 @@ const SingleUserPage = () => {
                         <div className="flex gap-4 mt-4">
                             <HoverCard>
                                 <HoverCardTrigger>
-                                    <BadgeCheck size={36} className="rounded-full bg-blue-500/30 border-1 border-blue-500/50 p-2"/>
+                                    <BadgeCheck size={36} className="rounded-full bg-blue-500/30 border border-blue-500/50 p-2"/>
                                 </HoverCardTrigger>
                                 <HoverCardContent>
                                     <h1 className="font-bold mb-2">Verified User</h1>
@@ -43,7 +43,7 @@ const SingleUserPage = () => {
                             </HoverCard>
                             <HoverCard>
                                 <HoverCardTrigger>
-                                    <Shield size={36} className="rounded-full bg-green-500/30 border-1 border-green-500/50 p-2"/>
+                                    <Shield size={36} className="rounded-full bg-green-500/30 border border-green-500/50 p-2"/>
                                 </HoverCardTrigger>
                                 <HoverCardContent>
                                     <h1 className="font-bold mb-2">Admin</h1>
@@ -52,7 +52,7 @@ const SingleUserPage = () => {
                             </HoverCard>
                             <HoverCard>
                                 <HoverCardTrigger>
-                                    <Candy size={36} className="rounded-full bg-yellow-500/30 border-1 border-yellow-500/50 p-2"/>
+                                    <Candy size={36} className="rounded-full bg-yellow-500/30 border border-yellow-500/50 p-2"/>
                                 </HoverCardTrigger>
                                 <HoverCardContent>
                                     <h1 className="font-bold mb-2">Awared</h1>
@@ -61,7 +61,7 @@ const SingleUserPage = () => {
                             </HoverCard>
                             <HoverCard>
                                 <HoverCardTrigger>
-                                    <Citrus size={36} className="rounded-full bg-orange-500/30 border-1 border-orange-500/50 p-2"/>
+                                    <Citrus size={36} className="rounded-full bg-orange-500/30 border border-orange-500/50 p-2"/>
                                 </HoverCardTrigger>
                                 <HoverCardContent>
                                     <h1 className="font-bold mb-2">Popular</h1>
