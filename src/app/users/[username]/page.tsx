@@ -1,3 +1,4 @@
+import AppLineChart from "@/components/AppLineChart";
 import CardList from "@/components/CardList";
 import EditeUser from "@/components/EditeUser";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -133,7 +134,8 @@ const SingleUserPage = () => {
                     </div>
                     {/* CHART CONTAINER */}
                     <div className="bg-primary-foreground p-4 rounded-lg">
-                        CHART
+                        <h1 className="text-xl font-medium mb-4">User Activity</h1>
+                        <AppLineChart/>
                     </div>
                 </div>
             </div>
